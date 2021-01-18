@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "//akshaybadodiya.github.io/loading-component/static/css/main.29a5610f.chunk.css",
-    "main.js": "//akshaybadodiya.github.io/loading-component/static/js/main.a122eacc.chunk.js",
-    "main.js.map": "//akshaybadodiya.github.io/loading-component/static/js/main.a122eacc.chunk.js.map",
-    "runtime-main.js": "//akshaybadodiya.github.io/loading-component/static/js/runtime-main.33ac643a.js",
-    "runtime-main.js.map": "//akshaybadodiya.github.io/loading-component/static/js/runtime-main.33ac643a.js.map",
-    "static/js/2.ae69836b.chunk.js": "//akshaybadodiya.github.io/loading-component/static/js/2.ae69836b.chunk.js",
-    "static/js/2.ae69836b.chunk.js.map": "//akshaybadodiya.github.io/loading-component/static/js/2.ae69836b.chunk.js.map",
-    "static/js/3.e6cd1c24.chunk.js": "//akshaybadodiya.github.io/loading-component/static/js/3.e6cd1c24.chunk.js",
-    "static/js/3.e6cd1c24.chunk.js.map": "//akshaybadodiya.github.io/loading-component/static/js/3.e6cd1c24.chunk.js.map",
-    "index.html": "//akshaybadodiya.github.io/loading-component/index.html",
-    "static/css/main.29a5610f.chunk.css.map": "//akshaybadodiya.github.io/loading-component/static/css/main.29a5610f.chunk.css.map",
-    "static/js/2.ae69836b.chunk.js.LICENSE.txt": "//akshaybadodiya.github.io/loading-component/static/js/2.ae69836b.chunk.js.LICENSE.txt"
+    "main.css": "/loading-component/static/css/main.29a5610f.chunk.css",
+    "main.js": "/loading-component/static/js/main.a122eacc.chunk.js",
+    "main.js.map": "/loading-component/static/js/main.a122eacc.chunk.js.map",
+    "runtime-main.js": "/loading-component/static/js/runtime-main.4fa82f75.js",
+    "runtime-main.js.map": "/loading-component/static/js/runtime-main.4fa82f75.js.map",
+    "static/js/2.ae69836b.chunk.js": "/loading-component/static/js/2.ae69836b.chunk.js",
+    "static/js/2.ae69836b.chunk.js.map": "/loading-component/static/js/2.ae69836b.chunk.js.map",
+    "static/js/3.e6cd1c24.chunk.js": "/loading-component/static/js/3.e6cd1c24.chunk.js",
+    "static/js/3.e6cd1c24.chunk.js.map": "/loading-component/static/js/3.e6cd1c24.chunk.js.map",
+    "index.html": "/loading-component/index.html",
+    "static/css/main.29a5610f.chunk.css.map": "/loading-component/static/css/main.29a5610f.chunk.css.map",
+    "static/js/2.ae69836b.chunk.js.LICENSE.txt": "/loading-component/static/js/2.ae69836b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.33ac643a.js",
+    "static/js/runtime-main.4fa82f75.js",
     "static/js/2.ae69836b.chunk.js",
     "static/css/main.29a5610f.chunk.css",
     "static/js/main.a122eacc.chunk.js"
