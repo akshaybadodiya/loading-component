@@ -4,6 +4,10 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/start/i);
-  expect(linkElement).toBeInTheDocument();
+  const startButton = screen.getByText(/start/i);
+  expect(startButton).toBeInTheDocument();
+  const pauseButton = screen.getByText(/pause/i);
+  expect(pauseButton).toBeInTheDocument();
+  const resetButton = screen.getByText(/reset/i);
+  expect(resetButton).toBeInTheDocument();
 });

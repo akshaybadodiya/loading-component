@@ -25,8 +25,8 @@ export const componentStyles = (theme: Theme) => createStyles({
             height: "100% !important",
             width: "100% !important",
         },
-        height: "400px !important",
-        width: "400px !important",
+        height: "320px !important",
+        width: "320px !important",
         borderRadius: 200,
         margin: "auto",
         color: "#60c67f"
@@ -36,8 +36,8 @@ export const componentStyles = (theme: Theme) => createStyles({
             height: "100% !important",
             width: "100% !important",
         },
-        height: "400px !important",
-        width: "400px !important",
+        height: "320px !important",
+        width: "320px !important",
         borderRadius: 200,
         margin: "auto",
         position: "absolute",
@@ -48,8 +48,8 @@ export const componentStyles = (theme: Theme) => createStyles({
             height: "100% !important",
             width: "100% !important",
         },
-        height: "400px !important",
-        width: "400px !important",
+        height: "320px !important",
+        width: "320px !important",
         borderRadius: 200,
         margin: "auto",
         position: "absolute",
@@ -105,5 +105,14 @@ export const componentStyles = (theme: Theme) => createStyles({
         fontFamily: "'Nunito', sans-serif",
         color: "#4f4f4f"
     },
+    footer: {
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+        fontFamily: "'Nunito', sans-serif",
+        "fontWeight": 900,
+        fontSize: 20,
+        margin: "auto"
+    }
 
 })

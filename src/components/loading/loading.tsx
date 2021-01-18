@@ -42,7 +42,7 @@ const _Loading: React.FC<_LoadingProps> = (props) => {
         }, 500)
     }
 
-    return <Grid container spacing={3} onClick={onClick} className={classes.loading_main}>
+    return <><Grid container spacing={3} onClick={onClick} className={classes.loading_main}>
         <Grid item xs={12} className={classes.title}>
             PREPFULLY LOADING
         </Grid>
@@ -78,7 +78,11 @@ const _Loading: React.FC<_LoadingProps> = (props) => {
                 Reset
                 </Button>
         </Grid>
+        <Grid item xs={12} className={classes.footer}>
+            <a href="https://github.com/akshaybadodiya/loading-component">GitHub Repository</a>
+        </Grid>
     </Grid>
+    </>
 }
 
 export const Loading = withStyles(componentStyles)(_Loading)
