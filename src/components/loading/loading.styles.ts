@@ -12,44 +12,37 @@ export const componentStyles = (theme: Theme) => createStyles({
 
         },
         border: "2px solid white",
+        borderRadius: 12,
         backgroundColor: "rgba(255,255,255,0.75)"
     },
     title: {
         fontFamily: "'Nunito', sans-serif",
-        fontSize: 36,
+        fontSize: 24,
+        [theme.breakpoints.up("sm")]: {
+            fontSize: 36,
+
+        },
         color: "#4f4f4f",
         textAlign: "center"
     },
     loadingCircle: {
-        [theme.breakpoints.down('xs')]: {
-            height: "100% !important",
-            width: "100% !important",
-        },
-        height: "320px !important",
-        width: "320px !important",
+        height: "300px !important",
+        width: "300px !important",
         borderRadius: 200,
         margin: "auto",
         color: "#60c67f"
     },
     base_circle: {
-        [theme.breakpoints.down('xs')]: {
-            height: "100% !important",
-            width: "100% !important",
-        },
-        height: "320px !important",
-        width: "320px !important",
+        height: "300px !important",
+        width: "300px !important",
         borderRadius: 200,
         margin: "auto",
         position: "absolute",
         color: "#fb7563"
     },
     percent_textContainer: {
-        [theme.breakpoints.down('xs')]: {
-            height: "100% !important",
-            width: "100% !important",
-        },
-        height: "320px !important",
-        width: "320px !important",
+        height: "300px !important",
+        width: "300px !important",
         borderRadius: 200,
         margin: "auto",
         position: "absolute",
